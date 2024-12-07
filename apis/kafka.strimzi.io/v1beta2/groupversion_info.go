@@ -42,7 +42,9 @@ func init() {
 	SchemeBuilder.Register(&KafkaConnect{}, &KafkaConnectList{})
 	SchemeBuilder.Register(&KafkaConnector{}, &KafkaConnectorList{})
 	SchemeBuilder.Register(&KafkaMirrorMaker2{}, &KafkaMirrorMaker2List{})
+	SchemeBuilder.Register(&KafkaNodePool{}, &KafkaNodePoolList{})
 	SchemeBuilder.Register(&KafkaRebalance{}, &KafkaRebalanceList{})
 	SchemeBuilder.Register(&KafkaTopic{}, &KafkaTopicList{})
 	SchemeBuilder.Register(&KafkaUser{}, &KafkaUserList{})
+	SchemeBuilder.Register(&StrimziPodSet{}, &StrimziPodSetList{})
 }
