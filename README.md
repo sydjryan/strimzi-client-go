@@ -2,7 +2,7 @@
 
 Strimzi client-go package for use with kubernetes controllers.
 
-This is a *work in progress* and hopefully the generation of this package will be fully automated soon.
+This is a **work in progress** and hopefully the generation of this package will be fully automated soon.
 
 At the moment, the partially-automated process is:
 
